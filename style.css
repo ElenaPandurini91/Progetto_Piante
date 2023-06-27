@@ -1,12 +1,10 @@
 body {
     background: radial-gradient(#F5F5DC, #D2B48C);
-
 }
 
 h1 {
     color: green;
     text-align: center;
-
 }
 
 p {
@@ -15,6 +13,32 @@ p {
 }
 
 navbarhomepage {
- 
-    background-color: beige!important;
+    background-color: beige !important;
+}
+
+.bg-nav {
+    background-color: beige;
+}
+
+.offcanvas-body {
+    background-color: beige;
+}
+
+.dropdown-toggle::after {
+    content: none !important;
+}
+
+.dropdown-toggle .fa-pagelines {
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(0.6) sepia(1) saturate(2) hue-rotate(90deg);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  color: green;
 }
