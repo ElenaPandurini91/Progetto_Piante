@@ -1,0 +1,20 @@
+body {
+    background: radial-gradient(#F5F5DC, #D2B48C);
+
+}
+
+h1 {
+    color: green;
+    text-align: center;
+
+}
+
+p {
+    text-align: center;
+    color: green;
+}
+
+navbarhomepage {
+ 
+    background-color: beige!important;
+}
