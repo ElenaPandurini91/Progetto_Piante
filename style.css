@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@200;300;400&family=Philosopher:ital,wght@0,400;0,700;1,400&family=Ysabeau+SC:wght@300&display=swap');
+
+
 body {
     background: radial-gradient(#F5F5DC, #D2B48C);
 }
 
-h1 {
+h1,
+h2 {
     color: green;
     text-align: center;
+
+    font-family: 'Philosopher', sans-serif;
 }
 
 p {
@@ -35,10 +41,15 @@ navbarhomepage {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  filter: invert(0.6) sepia(1) saturate(2) hue-rotate(90deg);
+    filter: invert(0.6) sepia(1) saturate(2) hue-rotate(90deg);
 }
 
 .carousel-control-prev,
 .carousel-control-next {
-  color: green;
+    color: green
+}
+
+
+nav {
+    font-family: 'Philosopher', sans-serif;
 }
